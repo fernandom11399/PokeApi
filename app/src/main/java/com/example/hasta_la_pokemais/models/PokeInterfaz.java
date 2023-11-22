@@ -5,7 +5,7 @@ import retrofit2.http.GET;
 
 public interface PokeInterfaz {
 
-    @GET("pokemon")
+    @GET("pokemon?offset=20&limit=1292")
     Call<Pokemon> getObjetoBase();
 
 }
